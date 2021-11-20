@@ -78,7 +78,7 @@ object DemoMain {
       case "MUM" => "Mumbai"
       case _ => "ANYTHING"
     }
-    out
+
 println(result)
 
     if(result > 10) {
