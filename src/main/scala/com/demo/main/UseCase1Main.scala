@@ -2,8 +2,9 @@ package com.demo.main
 
 import com.demo.utils.DemoUtils
 
-case class AtmTrans(account_id:String,atm_id:String,trans_dt:String,trans_amt:String,status:String)
+
 object UseCase1Main {
+  case class AtmTrans(account_id:String,atm_id:String,trans_dt:String,trans_amt:String,status:String)
   def main(args: Array[String]): Unit = {
 
     val fileLocMap = Map(
